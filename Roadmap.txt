@@ -1,0 +1,35 @@
+Roadmap for Cation-Calculator
+------------------------------------------------------------
+Version 1.0.1
+COMPLETE - automatic identification of oxides present
+COMPLETE - automatic calculation of cations from oxide weight percentage (Ox wt%) to atoms per formula unit (apfu)
+COMPLETE - automatic saving the output results in .csv format for maximum compatibility with all operating systems
+
+Version 1.0.2
+- add optional calculation of Fe2+/Fe3+ partition with Droop (1987) method
+- add optional backward calculation of oxides weight percentage to estimate the FeO and Fe2O3 content values
+	+ to this, add the re-recalculation of cations, based on the new recalculated oxides proportions
+
+Version 1.0.3
+- add cations site occupation for pyroxenes
+- add main classification diagrams for pyroxenes and plagioclases
+- add options for secondary classification diagrams (for example QUAD-kushiroite-esseneite diagram for pyroxenes)
+
+Version 1.0.4
+- add optional Nimis and Taylor (2000) thermobarometry for cpx coming from garnet lherzolites, with the inclusion of data filtering for Ziberna et al.(2016).
+- add option for qualitative data filtering
+
+Version 1.0.5
+- add cations site occupation for garnet
+- add main classification diagrams for garnet
+
+Version 1.0.6
+- add main classification diagrams for spinel and olivine
+- add optional olivine-ilmenite thermometry of Andersen and Lindsey (1979)
+
+-------------------------------------------------------------------
+REFERENCES:
+- Andersen, D. J., & Lindsley, D. H. (1981). A valid Margules formulation for an asymmetric ternary solution: revision of the olivine-ilmenite thermometer, with applications. Geochimica et Cosmochimica Acta, 45(6), 847-853.
+- Droop, G. T. R. (1987). A general equation for estimating Fe3+ concentrations in ferromagnesian silicates and oxides from microprobe analyses, using stoichiometric criteria. Mineralogical magazine, 51(361), 431-435.
+- Nimis, P., & Taylor, W. R. (2000). Single clinopyroxene thermobarometry for garnet peridotites. Part I. Calibration and testing of a Cr-in-Cpx barometer and an enstatite-in-Cpx thermometer. Contributions to Mineralogy and Petrology, 139(5), 541-554.
+- Ziberna, L., Nimis, P., Kuzmin, D., & Malkovets, V. G. (2016). Error sources in single-clinopyroxene thermobarometry and a mantle geotherm for the Novinka kimberlite, Yakutia. American Mineralogist, 101(10), 2222-2232.
