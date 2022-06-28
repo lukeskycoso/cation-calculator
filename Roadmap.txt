@@ -6,7 +6,7 @@ COMPLETE - automatic calculation of cations from oxide weight percentage (Ox wt%
 COMPLETE - automatic saving the output results in .csv format for maximum compatibility with all operating systems
 
 Version 1.0.2
-- add optional calculation of Fe2+/Fe3+ partition with Droop (1987) method
+COMPLETE - add optional calculation of Fe2+/Fe3+ partition with Droop (1987) method
 - add optional backward calculation of oxides weight percentage to estimate the FeO and Fe2O3 content values
 	+ to this, add the re-recalculation of cations, based on the new recalculated oxides proportions
 
